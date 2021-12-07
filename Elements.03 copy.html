@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Interaction Elements2021</title>
+    <link rel="stylesheet" href="stylesheet copy.css">
+    <link rel="icon" href="img/android-chrome-36x36.png">
+    <link rel="stylesheet" href="https://use.typekit.net/fbe6tlh.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body id="top">
+    <center>
+        <div class="container">
+            <div class="header">
+                <div class="header-list">
+                    <ul class="gnavi">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Activities.html">Process</a></li>
+                        <li><a href="Elements.01.html">Element.01</a></li>
+                        <li><a href="Elements.02.html">Element.02</a></li>
+                        <li class="current"><a href="Elements.03.html">Element.03</a></li>
+                        <br>
+                    </ul>
+                </div>
+                <img src="img/Interaction Elements_header.svg">
+            </div>
+
+            <div class="E3-main">
+                <div class="Image">
+                    <center><img src="img/Element.03/top.svg"></center>
+                </div>
+                <center>
+                    <div class="Caption">
+                        <div class="img/Caption_img">
+                            <img src="img/Element.03/POP_logo.svg">
+                        </div>
+                        <div class="Caption_text">
+                            <div class="Title CT">
+                                <h2>Element.03：POP UP SHELF</h2>
+                                <h3>本の探索・取り出しに、新しいフィードバックを</h3>
+                            </div>
+                            <div class="sentence">
+                                <p>このInteraction Elementは手をかざすと本が浮き出る、直感的な操作と本からのフィードバックを体験できる本棚です。 本棚に手を近づけると、指し示す本を頂点にして本が山型に浮き出します。 そのまま手を横に動かすと、本も手の位置に合わせて動きます。 そして、POP UP SHELFはものの探索に新たなフィードバックを与えるだけではなく、本を手に取るきっかけとなることを目指し、制作しました。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+                <center>
+                    <div class="Concept">
+                        <div class="Concept_text">
+                            <div class="Title">
+                                <h2>Concept</h2>
+                            </div>
+                            <div class="sentence">
+                                <p>本棚から目的の本を探すとき、並んでいる本を指でなぞる経験をしたことはあるでしょうか。『私たちはそのような日常の行動を新たなフィードバックによって”変える”Elementを制作しました。』指が指し示す本が飛び出すことで、まるで自分が本を操っているかのような感覚を得ることができます。また、本の探索という行為に、このようなフィードバックを与えることで、本を手に取ることを誘発することも目的としています。</p>
+                            </div>
+                        </div>
+                        <div class="Concept_img">
+                            <img src="img/Element.03/Concept.JPG">
+                        </div>
+                    </div>
+                </center>
+                <center>
+                    <div class="movie kuuhaku">
+                        <iframe width="800" height="450" src="https://www.youtube.com/embed/SXmNMygujvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </center>
+                <center>
+                    <div class="Approach">
+                        <div class="Approach_img">
+                            <img src="img/Element.03/Approach.JPG">
+                        </div>
+                        <div class="Approach_text">
+                            <div class="Title AT">
+                                <h2>Approach</h2>
+                            </div>
+
+                            <div class="sentence">
+                                <p>この本棚のもとの考えとなったのは、パソコンの画面でマウスオーバーしたアイコン箇所がポップアップされる機能です。私たちは、この機能のように現実世界のものも、ポップアップされるようなわかりやすいフィードバックができないか、と考えました。 この考えを実現すべく、試行錯誤を重ねた結果、指をセンサで感知し、指し示した部分が山なりに浮き出す本棚の案が生まれました。 まずは、コマ撮りによって本の動きを再現し、最終段階を見据えた本の動きとその構造について考察を行いました。その後、本の構造、内部の機構の大まかに２つの班に分かれ、制作を行いました。
+                                </p>
+                            </div>
+                        </div>
+                </center>
+                <center>
+                    <div class="Mechanism">
+                        <div class="Mechanism_text">
+                            <div class="Title">
+                                <h2>Mechanism</h2>
+                            </div>
+
+                            <div class="sentence">
+                                <p>POP UP SHELFはArduinoを使って、距離(ToF)センサ、サーボモータ、ステッピングモータを同時に制御しています。 本棚の端に距離センサが設置してあります。この距離センサが手の位置を読み取り、手と同じ位置にヘッド部が移動します。移動する際に使用しているのが、ベルト駆動によるレールとステッピングモータです。距離センサから得た数値をarduinoで処理し、その数値をステッピングモータへ送信します。ステッピングモータが得た数値に合わせた回転をすることにより、ベルトが回転し、手の位置までヘッド部が移動します。これらの動作が終了した後に、サーボモータによってヘッド部が押し出される仕組みとなっています。
+                                    POP UP SHELFは本棚全体を30度傾けることにより重力により飛び出した本が戻る仕組みになっています。このように本棚の外装はシンプルに仕上げ、主役である浮き出る本がより強調されるよう設計しました。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Mechanism_img">
+                            <img src="img/Element.03/Mechanism.JPG">
+                        </div>
+                    </div>
+                    <div class="Setumei-img3-2">
+                        <a href="img/Element.03/infographics.png" target="_blank"><img src="img/Element.03/infographics.png"></a>
+                    </div>
+                    <div class="Setumei1-2-line">
+                        <a href="img/Element.03/infomotin02.gif" target="_blank" 　><img src="img/Element.03/infomotin02.gif"></a>
+                    </div>
+
+                </center>
+                <center>
+                    <div class="FutureWork">
+                        <div class="FutureWork_text">
+                            <div class="Title">
+                                <h2>Future Work</h2>
+                            </div>
+                            <div class="sentence">
+                                <p>本プロジェクトでは、指が指し示した部分の本を浮き出し、動かすところまでを再現することができました。しかし、今回製作したものでは一定のサイズの本でないと浮き出す形を表現できません。また、指で本を指してから飛び出すまでの速度が遅く、快適な操作感とは言えません。 最後に、私たちは本棚に絞って製作を行いましたが、リスト化されている様々なモノに応用が効きます。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="FutureWork_img">
+                            <img src="img/Element.03/FutureWork.JPG">
+                        </div>
+                    </div>
+
+                </center>
+                <div class="footer">
+                    <center>
+                        <div class="footer-logos">
+                            <div class="footer-twitter">
+                                <a href="https://twitter.com/IEproject_2021" target="_blank"><img src="img/fotter/2021 Twitter logo - black.png"></a>
+                            </div>
+                            <div class="footer-insta">
+                                <a href="https://www.instagram.com/interaction_elements2021/" target="_blank"><img src="img/fotter/glyph-logo_May2016.png"></a>
+                            </div>
+                        </div>
+                        <center><img src="img/fotter/footer_moji@2x.png"></center>
+                    </center>
+                </div>
+                </div>
+
+                <a href="#top" class="pagetop"><img src="img/top_button@2x.png"></img>
+                </a>
+            </div>
+    </center>
+</body>
+
+</html>
