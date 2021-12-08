@@ -2,29 +2,58 @@ body {
     background-color: #fcfcfc;
     font-size: 12.5px;
     color: #303030;
-    width: 100%;
-    line-height: 190%;
+    height: auto;
     font-family: "游ゴシック", urw-form, sans-serif;
     font-weight: 500;
     font-style: normal;
-    position: relative;
 }
 
 h3 {
     font-family: urw-form, sans-serif, "游ゴシック", "ヒラギノ角ゴ　ProN";
-    font-weight: 500;
+    font-weight: 550;
     font-style: normal;
+    letter-spacing: 2px;
 }
 
 h2 {
     font-family: urw-form, sans-serif, "游ゴシック", "ヒラギノ角ゴ　ProN";
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 2.5px;
 }
 
 a {
     color: #303030;
     text-decoration: none;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+p {
+    color: #303030;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+
+/*====各ページTitle====*/
+
+.Title {
+    text-align: left;
+}
+
+.Title img {
+    border: solid 3px #303030;
+}
+
+
+/*==================*/
+
+.container {
+    width: 800px;
 }
 
 .header {
@@ -75,33 +104,11 @@ a {
     padding-left: 40px;
 }
 
-.main {
-    height: 100%;
-    width: 100%;
-}
 
-.A-main {
-    height: 3800px;
-    width: 100%;
-}
-
-.E1-main {
-    height: 3950px;
-    width: 100%;
-}
-
-.E2-main {
-    height: 4600px;
-    width: 100%;
-}
-
-.E3-main {
-    height: 4650px;
-    width: 100%;
-}
+/*====HOME====*/
 
 .Image {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .E1-main .Image {
@@ -118,32 +125,43 @@ a {
 
 .What {
     height: 400px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.What p {
+    padding-bottom: 5px;
 }
 
 .What_sentence {
     width: 800px;
     text-align: left;
     display: inline-block;
+    line-height: 50px;
 }
 
-.Products{
+.What_sentence p {
+    line-height: 30px;
+}
+
+.Products {
     height: 600px;
 }
 
 .contents-item {
-    width: 300px;
     float: left;
-    padding: 0px 10px 10px 20px;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.contents-item p {
+    text-align: center;
 }
 
 .contents-items {
-    width: 1200px;
-    display: -webkit-flex;
+    width: 800px;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
     margin: 0 auto;
 }
 
@@ -158,17 +176,19 @@ a {
 }
 
 .Activities {
-    height: 500px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
-.box img {
-    width: 600px;
-    height: 200px;
+.box {
+    text-align: center;
+    width: 800px;
 }
 
 .Member {
     line-height: 150%;
-    height: 200px;
+    padding-top: 140px;
+    padding-bottom: 180px;
 }
 
 .member-item {
@@ -194,12 +214,20 @@ a {
 .Teacher {
     line-height: 150%;
     height: 50px;
+    padding-top: 20px;
+    padding-bottom: 160px;
 }
 
 .teacher-items {
     width: 140px;
     margin: 0 auto;
 }
+
+
+/*==================*/
+
+
+/*====矢印↑====*/
 
 .pagetop img {
     width: 50px;
@@ -208,103 +236,311 @@ a {
     right: 15px;
 }
 
+
+/*==================*/
+
+
+/*====PROCESSページ====*/
+
 .Daimei-Schedule {
-    width: 600px;
-    height: 500px;
-}
-
-.Daimei-KJ {
-    width: 600px;
-    height: 580px;
-    padding-top: 50px;
-    padding-bottom: 160px;
-}
-
-.Daimei-KJ img {
-    width: 100%;
-    height: 400px;
-}
-
-.Daimei-guru {
-    width: 600px;
-    height: 380px;
+    width: 800px;
+    padding-top: 40px;
+    padding-bottom: 340px;
 }
 
 .Daimei-Schedule img {
     width: 100%;
 }
 
-.Daimei-KJ p {
-    text-align: left;
-    display: inline-block;
+.Daimei-KJ {
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 160px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    display: flex;
 }
 
-.Daimei-guru p {
-    text-align: left;
-    display: inline-block;
-}
-
-.Concept {
-    width: 600px;
-    padding-bottom: 140px;
-}
-
-.Purpose {
-    width: 600px;
-    padding-top: 140px;
-    padding-bottom: 140px;
-}
-
-.Approach {
-    width: 600px;
-    height: auto;
-    padding-top: 140px;
-    padding-bottom: 140px;
-}
-
-.Approach img {
-    width: 600px;
-}
-
-.Approach p {
-    text-align: left;
-    display: inline-block;
-}
-
-.FutureWork {
-    width: 600px;
-    height: auto;
-    padding-top: 180px;
-    padding-bottom: 180px;
-}
-
-.FutureWork p {
-    text-align: left;
-    display: inline-block;
-}
-
-.Title {
-    width: 600px;
-    text-align: left;
-    display: inline-block;
-}
-
-.Concept img {
+.Daimei-KJ img {
     width: 100%;
 }
 
-.Concept p {
-    text-align: left;
-    display: inline-block;
+.Daimei-Grupe {
+    width: 800px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    padding-top: 240px;
+    padding-bottom: 240px;
 }
 
-.Purpose p {
-    text-align: left;
-    display: inline-block;
+.Grupe {
+    width: 800px;
 }
 
-.Pro {
-    height: 50px;
+.Grupe img {
+    width: 170px;
+}
+
+.G1 {
+    width: 170px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+
+.G2 {
+    width: 170px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+
+.G3 {
+    width: 170px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 40px;
+    float: left;
+}
+
+.IdeaNote {
+    width: 800px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+}
+
+.IdeaNote_img {
+    width: 400px;
+    text-align: left;
+}
+
+.IdeaNote_img_left {
+    width: 400px;
+    text-align: left;
+    padding-right: 55px;
+}
+
+.IdeaNote_img_right {
+    width: 400px;
+    text-align: left;
+    padding-left: 55px;
+}
+
+.IdeaNote_img img {
+    width: 280px;
+    text-align: left;
+    border: solid 2px #303030;
+    margin: 8px 0;
+}
+
+.IdeaNote_text {
+    width: 450px;
+    padding-left: 30px;
+    padding-top: 240px;
+}
+
+.Zenchishi {
+    width: 800px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.Zenchishi_text {
+    width: 450px;
+    padding-top: 140px;
+    padding-right: 30px;
+}
+
+.Zenchishi_img {
+    width: 400px;
+}
+
+.Zenchishi_img_left {
+    width: 400px;
+    padding-right: 55px;
+}
+
+.Zenchishi_img_right {
+    width: 400px;
+    padding-left: 55px;
+}
+
+.Zenchishi_img img {
+    width: 280px;
+    text-align: right;
+    border: solid 2px #303030;
+    margin: 8px 0;
+}
+
+.KJ_img img {
+    width: 450px;
+    border: solid 2px #303030;
+}
+
+.KJ_text {
+    width: 350px;
+    padding-right: 50px;
+}
+
+
+/*====================*/
+
+
+/*====Elementページmain欄====*/
+
+.CT {
+    width: 450px;
+}
+
+.Caption {
+    width: 800px;
+    padding-top: 140px;
+    padding-bottom: 340px;
+    display: flex;
+}
+
+.Caption_img img {
+    width: 300px;
+}
+
+.E2 {
+    padding-top: 26px;
+}
+
+.E3 {
+    padding-top: 20px;
+}
+
+.Caption_text {
+    width: 450px;
+    text-align: right;
+    margin-left: 50px;
+}
+
+
+/*==================*/
+
+
+/*====ElementページConcept欄====*/
+
+.Concept {
+    width: 800px;
+    padding-top: 140px;
+    padding-bottom: 340px;
+    display: flex;
+}
+
+.Concept_text {
+    width: 300px;
+}
+
+.Concept_img img {
+    width: 450px;
+    border: solid 2px #303030;
+}
+
+.Concept_img {
+    padding-left: 50px;
+}
+
+
+/*==================*/
+
+
+/*====ElementページApproach欄====*/
+
+.AT {
+    width: 300px;
+}
+
+.Approach {
+    width: 800px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    display: flex;
+}
+
+.movie {
+    width: 800px;
+    padding: 140px 0;
+}
+
+.Approach_text {
+    width: 300px;
+    margin-top: 80px;
+}
+
+.Approach_img img {
+    width: 450px;
+    border: solid 2px #303030;
+}
+
+.Approach_img {
+    margin-right: 50px;
+}
+
+
+/*==================*/
+
+
+/*====ElementページMechanism欄====*/
+
+.Mechanism {
+    width: 800px;
+    padding-top: 240px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.Mechanism_text {
+    width: 300px;
+}
+
+.Mechanism_img img {
+    width: 450px;
+    margin-top: 120px;
+    border: solid 2px #303030;
+}
+
+.Mechanism_img {
+    padding-left: 50px;
+}
+
+
+/*==================*/
+
+
+/*====各ページのFutureWork====*/
+
+.FutureWork {
+    width: 800px;
+    padding-top: 240px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.FutureWork_text {
+    width: 300px;
+}
+
+.FutureWork_img img {
+    width: 450px;
+    margin-top: 60px;
+    border: solid 2px #303030;
+}
+
+.FutureWork_img {
+    padding-left: 50px;
+}
+
+
+/*==================*/
+
+.main img {
+    width: 100%;
 }
 
 .Setumei img {
@@ -337,35 +573,8 @@ a {
     border: 3px solid #303030;
 }
 
-.Grupe {
-    width: 600px;
-    height: 200px;
-}
 
-.Grupe img {
-    width: 170px;
-    height: 150px;
-}
-
-.G1 {
-    width: 170px;
-    height: 200px;
-    float: left;
-}
-
-.G2 {
-    width: 170px;
-    height: 200px;
-    padding-left: 45px;
-    padding-right: 45px;
-    float: left;
-}
-
-.G3 {
-    width: 170px;
-    height: 200px;
-    float: left;
-}
+/*====グループ2====*/
 
 .Grupe2 {
     width: 600px;
@@ -395,20 +604,17 @@ a {
     font-size: 15px;
 }
 
+
+/*==================*/
+
 .kuuhaku {
     padding-top: 30px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-}
+
+/*====footer====*/
 
 .footer {
-    height: 40px;
     width: 100%;
     padding-top: 140px;
 }
@@ -423,10 +629,9 @@ footer {
     float: left;
 }
 
-.footer-instagram img {
+.footer-insta img {
     height: 20px;
     padding-left: 25px;
-    float: left;
 }
 
 .footer-logos {
@@ -434,7 +639,11 @@ footer {
     height: 30px;
 }
 
+
+/*====タブの下伸びるやつ====*/
+
 .gnavi li a {
+    /*線の基点とするためrelativeを指定*/
     position: relative;
 }
 
@@ -461,8 +670,14 @@ footer {
     /*上部中央基点*/
 }
 
+
+/*現在地とhoverの設定*/
+
 .gnavi li.current a::after,
 .gnavi li a:hover::after {
     transform: scale(1, 1);
     /*X方向にスケール拡大*/
 }
+
+
+/*====ここまでタブの下伸びるやつ*====*/
