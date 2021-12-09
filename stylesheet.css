@@ -132,15 +132,7 @@ p {
     margin-top: 10px;
     align-items: center;
     width: auto;
-    height: 80vh;
-}
-
-.Image_2 img {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 20vh;
+    height: 85vh;
 }
 
 .What {
@@ -173,6 +165,7 @@ p {
     text-align: center;
     padding-left: 55px;
     padding-right: 55px;
+    padding-top: 5px;
 }
 
 .contents-item p {
@@ -206,6 +199,7 @@ p {
 .Activities img {
     text-align: center;
     width: 800px;
+    padding-top: 5px;
 }
 
 .Member {
@@ -298,7 +292,7 @@ p {
 }
 
 .member-items_2 {
-    width: 260px;
+    width: 270px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -311,7 +305,7 @@ p {
 }
 
 .member-items_4 {
-    width: 600px;
+    width: 580px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -583,7 +577,7 @@ p {
 
 .movie {
     width: 800px;
-    padding: 140px 0;
+    padding: 180px 0;
 }
 
 .movie iframe {
@@ -613,7 +607,7 @@ p {
 .Mechanism {
     width: 800px;
     padding-top: 240px;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
     display: flex;
 }
 
@@ -688,7 +682,6 @@ p {
 .Setumei1-2-line img {
     width: 600px;
     border: 2px solid #303030;
-    padding-bottom: 30px;
 }
 
 .pad img {
@@ -696,32 +689,12 @@ p {
     margin-bottom: 50px;
 }
 
+.pad2 img {
+    padding-top: 10px;
+}
+
 
 /*====グループ2====*/
-
-.Grupe2 {
-    width: 600px;
-    height: 400px;
-    padding-bottom: 30px;
-}
-
-.Grupe2 img {
-    width: 270px;
-    height: 150px;
-}
-
-.G2-1 {
-    width: 270px;
-    height: 250px;
-    float: left;
-}
-
-.G2-2 {
-    width: 270px;
-    height: 250px;
-    padding-left: 60px;
-    float: left;
-}
 
 .sentence span {
     font-size: 15px;
