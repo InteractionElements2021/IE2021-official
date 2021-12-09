@@ -107,6 +107,10 @@ p {
 
 /*====HOME====*/
 
+.Top {
+    height: 100vh;
+}
+
 .Image {
     height: 100vh;
 }
@@ -121,6 +125,14 @@ p {
     align-items: center;
     width: auto;
     height: 80vh;
+}
+
+.Image_2 img {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 20vh;
 }
 
 .What {
