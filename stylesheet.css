@@ -1,6 +1,6 @@
 body {
     background-color: #fcfcfc;
-    font-size: 12.5px;
+    font-size: 13px;
     color: #303030;
     height: auto;
     font-family: "游ゴシック", urw-form, sans-serif;
@@ -40,13 +40,10 @@ p {
     text-align: left;
     letter-spacing: 1px;
     line-height: 24px;
+    font-size: 13.5px;
 }
 
 .center {
-    text-align: center;
-}
-
-.center p {
     text-align: center;
 }
 
