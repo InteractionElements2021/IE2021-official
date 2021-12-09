@@ -541,7 +541,7 @@ p {
 .Concept {
     width: 800px;
     padding-top: 140px;
-    padding-bottom: 340px;
+    padding-bottom: 380px;
     display: flex;
 }
 
@@ -577,7 +577,7 @@ p {
 
 .movie {
     width: 800px;
-    padding: 180px 0;
+    padding: 200px 0;
 }
 
 .movie iframe {
