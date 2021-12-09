@@ -13,6 +13,8 @@ h3 {
     font-weight: 550;
     font-style: normal;
     letter-spacing: 2px;
+    color: #303030;
+    text-decoration: none;
 }
 
 h2 {
@@ -20,6 +22,8 @@ h2 {
     font-weight: 600;
     font-style: normal;
     letter-spacing: 2.5px;
+    color: #303030;
+    text-decoration: none;
 }
 
 a {
@@ -36,6 +40,10 @@ p {
     text-align: left;
     letter-spacing: 1px;
     line-height: 24px;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -121,7 +129,6 @@ p {
 
 .Image img {
     margin-top: 10px;
-    display: flex;
     align-items: center;
     width: auto;
     height: 80vh;
@@ -136,7 +143,6 @@ p {
 }
 
 .What {
-    height: 400px;
     padding-top: 140px;
     padding-bottom: 140px;
 }
@@ -157,7 +163,8 @@ p {
 }
 
 .Products {
-    height: 600px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .contents-item {
@@ -180,7 +187,6 @@ p {
 .contents-item img {
     width: 160px;
     height: 160px;
-    border-radius: 100%;
 }
 
 .contents-item h3 {
@@ -188,51 +194,77 @@ p {
 }
 
 .Activities {
+    width: 800px;
     padding-top: 140px;
     padding-bottom: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.box {
+.Activities img {
     text-align: center;
     width: 800px;
 }
 
 .Member {
-    line-height: 150%;
     padding-top: 140px;
     padding-bottom: 180px;
 }
 
 .member-item {
-    float: left;
-    width: 70px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .member-items1 {
-    width: 210px;
-    margin: 0 auto;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.member-items1 p {
+    text-align: center;
 }
 
 .member-items2 {
-    width: 210px;
-    margin: 0 auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.member-items2 p {
+    text-align: center;
 }
 
 .member-items3 {
-    width: 280px;
-    margin: 0 auto;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.member-items3 p {
+    text-align: center;
 }
 
 .Teacher {
-    line-height: 150%;
-    height: 50px;
     padding-top: 20px;
     padding-bottom: 160px;
 }
 
 .teacher-items {
-    width: 140px;
-    margin: 0 auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.teacher-items p {
+    text-align: center;
 }
 
 
@@ -242,7 +274,7 @@ p {
 /*====矢印↑====*/
 
 .pagetop img {
-    width: 50px;
+    width: 55px;
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -256,8 +288,8 @@ p {
 
 .Daimei-Schedule {
     width: 800px;
-    padding-top: 40px;
-    padding-bottom: 340px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .Daimei-Schedule img {
@@ -266,10 +298,8 @@ p {
 
 .Daimei-KJ {
     width: 800px;
-    padding-top: 50px;
-    padding-bottom: 160px;
-    padding-top: 240px;
-    padding-bottom: 240px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
 }
 
@@ -279,18 +309,30 @@ p {
 
 .Daimei-Grupe {
     width: 800px;
-    padding-top: 240px;
-    padding-bottom: 240px;
-    padding-top: 240px;
-    padding-bottom: 240px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.Daimei-Grupe .sentence {
+    width: 450px;
+    margin-right: auto;
+}
+
+.DT {
+    text-align: left;
 }
 
 .Grupe {
     width: 800px;
+    padding-bottom: 270px;
 }
 
 .Grupe img {
     width: 170px;
+}
+
+.Grupe h3 {
+    padding-top: 50px;
 }
 
 .G1 {
@@ -320,7 +362,7 @@ p {
 .IdeaNote {
     width: 800px;
     padding-top: 140px;
-    padding-bottom: 140px;
+    padding-bottom: 40px;
     display: flex;
 }
 
@@ -530,7 +572,7 @@ p {
 .FutureWork {
     width: 800px;
     padding-top: 240px;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
     display: flex;
 }
 
@@ -551,10 +593,6 @@ p {
 
 /*==================*/
 
-.main img {
-    width: 100%;
-}
-
 .Setumei img {
     width: 600px;
     height: 300px;
@@ -572,6 +610,7 @@ p {
 .Setumei-img3-2 img {
     padding-top: 30px;
     width: 600px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -583,6 +622,9 @@ p {
 .Setumei1-2-line img {
     width: 600px;
     border: 3px solid #303030;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -614,6 +656,7 @@ p {
 
 .sentence span {
     font-size: 15px;
+    text-align: left;
 }
 
 
