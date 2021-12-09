@@ -86,7 +86,7 @@ p {
     padding-bottom: 150px;
 }
 
-@media (max-width:722px) {
+@media (max-width:960px) {
     .header {
         height: 120px;
     }
@@ -318,7 +318,7 @@ p {
 }
 
 .member-items_2_a {
-    width: 280px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
