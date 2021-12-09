@@ -46,6 +46,10 @@ p {
     text-align: center;
 }
 
+.center p {
+    text-align: center;
+}
+
 
 /*====各ページTitle====*/
 
@@ -209,7 +213,7 @@ p {
 
 .Member {
     padding-top: 140px;
-    padding-bottom: 180px;
+    padding-bottom: 100px;
 }
 
 .member-item {
@@ -267,6 +271,68 @@ p {
     text-align: center;
 }
 
+.Credit h3 {
+    padding-top: 48px;
+}
+
+.Credit {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-items_1 p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-items_1 {
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.member-items_2 p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-items_2 {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.member-items_4 p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-items_4 {
+    width: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-items_2_a p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-items_2_a {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
 
 /*==================*/
 
@@ -288,17 +354,18 @@ p {
 
 .Daimei-Schedule {
     width: 800px;
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .Daimei-Schedule img {
     width: 100%;
+    margin-bottom: 200px;
 }
 
 .Daimei-KJ {
     width: 800px;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
     display: flex;
 }
@@ -332,7 +399,7 @@ p {
 }
 
 .Grupe h3 {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .G1 {
@@ -522,6 +589,10 @@ p {
     padding: 140px 0;
 }
 
+.movie iframe {
+    border: solid 2px #303030;
+}
+
 .Approach_text {
     width: 300px;
     margin-top: 80px;
@@ -571,8 +642,8 @@ p {
 
 .FutureWork {
     width: 800px;
-    padding-top: 240px;
-    padding-bottom: 140px;
+    padding-top: 340px;
+    padding-bottom: 170px;
     display: flex;
 }
 
@@ -595,12 +666,10 @@ p {
 
 .Setumei img {
     width: 600px;
-    height: 300px;
 }
 
 .Setumei2-1 img {
     width: 600px;
-    height: 400px;
 }
 
 .Setumei1-2 img {
@@ -610,7 +679,7 @@ p {
 .Setumei-img3-2 img {
     padding-top: 30px;
     width: 600px;
-    padding-top: 100px;
+    padding-top: 160px;
     padding-bottom: 100px;
 }
 
@@ -621,8 +690,11 @@ p {
 
 .Setumei1-2-line img {
     width: 600px;
-    border: 3px solid #303030;
+    border: 2px solid #303030;
     padding-bottom: 30px;
+}
+
+.pad img {
     padding-top: 30px;
     margin-bottom: 50px;
 }
